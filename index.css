@@ -117,7 +117,7 @@ body .header-section .header-hero .hero-banner-container .hero-banner-container-
 
 body .header-section .header-hero .hero-banner-container .hero-banner-container-content .hero-banner-container-content-details h4 {
   color: #ffffff;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 2rem;
 }
 
@@ -208,5 +208,179 @@ body .about-we-are .about-we-are-container .about-we-are-container-content .abou
   color: #46A4A3;
   background: #ffffff;
   text-transform: capitalize;
+}
+
+body .event-summary-collection {
+  height: 100vh;
+}
+
+body .event-summary-collection .event-summary-collection-cards {
+  width: 100%;
+  height: 75vh;
+  background-color: #ffffff;
+  position: relative;
+}
+
+body .event-summary-collection .event-summary-collection-cards::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  background-color: #46A4A3;
+  z-index: 1;
+}
+
+body .event-summary-collection .event-summary-collection-cards .event-summary-collection-card-details {
+  width: 80%;
+  height: 90%;
+  z-index: 2;
+}
+
+body .event-summary-collection .event-summary-collection-cards .event-summary-collection-card-details .event-summary-collection-card-details-header h4 {
+  text-transform: uppercase;
+  color: #EF9740;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+body .event-summary-collection .event-summary-collection-cards .event-summary-collection-card-details .event-summary-collection-card-details-header h6 {
+  color: #46A4A3;
+}
+
+body .event-summary-collection .event-summary-collection-cards .event-summary-collection-card-details .event-summary-collection-card-details-main img {
+  height: 18.75rem;
+  -webkit-box-shadow: 10px 10px 0px 0px #46a4a3;
+          box-shadow: 10px 10px 0px 0px #46a4a3;
+}
+
+body .event-summary-collection .event-summary-collection-cards .event-summary-collection-card-details .event-summary-collection-card-details-main h6 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+body .event-summary-collection .event-summary-collection-cards .event-summary-collection-card-details .event-summary-collection-card-details-main a {
+  color: #EF9740;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+body .event-summary-collection .events-register {
+  background-color: #ffffff;
+  height: 25vh;
+}
+
+body .event-summary-collection .events-register .events-register-content {
+  height: 80%;
+  width: 70%;
+}
+
+body .event-summary-collection .events-register .events-register-content p {
+  color: #333333;
+}
+
+body .event-summary-collection .events-register .events-register-content button {
+  outline: none;
+  border: none;
+  background: #EF9740;
+  padding: 10px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+body .footer-section {
+  height: 500px;
+  background-color: #46A4A3;
+}
+
+body .footer-section .footer-main {
+  height: 80%;
+  width: 80%;
+}
+
+body .footer-section .footer-main img {
+  height: 4rem;
+}
+
+body .footer-section .footer-main .footer-logo-content {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  padding-right: 2rem;
+}
+
+body .footer-section .footer-main .footer-logo-content p {
+  margin-top: 1.5rem;
+  color: #ffffff;
+}
+
+body .footer-section .footer-main .footer-menu {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  padding-right: 2rem;
+}
+
+body .footer-section .footer-main .footer-menu ul {
+  margin-top: 5rem;
+}
+
+body .footer-section .footer-main .footer-menu ul li {
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+body .footer-section .footer-main .footer-menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+body .footer-section .footer-main .footer-social-content ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+body .footer-section .footer-main .footer-social-content ul li .facebook {
+  padding: 10px 16px;
+  background-color: #ffffff;
+  color: #46A4A3;
+  border-radius: 50%;
+  margin-left: -2.1rem;
+}
+
+body .footer-section .footer-main .footer-social-content ul li .insta {
+  padding: 10px 14px;
+  background-color: #ffffff;
+  color: #46A4A3;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+
+body .footer-section .footer-main .footer-social-content ul li .twitter {
+  padding: 10px 13px;
+  background-color: #ffffff;
+  color: #46A4A3;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+
+body .footer-section .footer-main .footer-social-content ul li .youtube {
+  padding: 10px 12px;
+  background-color: #ffffff;
+  color: #46A4A3;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+
+body .footer-section .footer-main .footer-social-content ul li .linked {
+  padding: 10px 14px;
+  background-color: #ffffff;
+  color: #46A4A3;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+
+body .footer-section .footer-main .footer-social-content p {
+  color: #ffffff;
 }
 /*# sourceMappingURL=index.css.map */
